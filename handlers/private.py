@@ -13,10 +13,9 @@ async def start_(client: Client, message: Message):
         photo=f"https://te.legra.ph/file/afb59219c0a0428c63084.jpg",
         caption=f"""** 
 
- ▀█▀ █▀ █▀▀   █▀▄▀█ █░█ █▀ █ █▀▀
- ░█░ ▄█ █▄█   █░▀░█ █▄█ ▄█ █ █▄▄     sᴜᴘᴇʀ ғᴀsᴛ ᴍᴜsɪᴄ ʙᴏᴛ ʜᴏsᴛᴇᴅ ᴏɴ ᴘʀɪᴠᴀᴛᴇ  ᴠᴘs  sᴇʀᴠᴇʀ🎸💝
+ ᴛsɢ ᴍᴜsɪᴄ ɪs ᴀɴ sᴜᴘᴇʀ ғᴀsᴛ ᴍᴜsɪᴄ ʙᴏᴛ ʜᴏsᴛᴇᴅ ᴏɴ ᴘʀɪᴠᴀᴛᴇ  ᴠᴘs  sᴇʀᴠᴇʀ🎸💝
 
-                             ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ = [ᴀᴍɴ ❤️](https://t.me/itzamanrajput)
+                             ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ = [ᴀᴍᴀɴ ❤️](https://t.me/itzamanrajput)
 
 ᴄʀᴇᴀᴛᴏʀ :- [✨ ᴀᴍᴀɴ ʀᴀᴊᴘᴜᴛ  💜](https://t.me/itzamanrajput)
 sᴜᴘᴘᴏʀᴛ :- [✨ ᴛsɢ ɢʀᴏᴜᴘ ❤️🎸](https://t.me/Friends_Chatting_Group3)
