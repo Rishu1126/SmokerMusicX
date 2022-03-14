@@ -20,7 +20,7 @@ async def start_(client: Client, message: Message):
 ᴄʀᴇᴀᴛᴏʀ :- [✨ ᴀᴍᴀɴ ʀᴀᴊᴘᴜᴛ  💜](https://t.me/itzamanrajput)
 sᴜᴘᴘᴏʀᴛ :- [✨ ᴛsɢ ɢʀᴏᴜᴘ ❤️🎸](https://t.me/Friends_Chatting_Group3)
 
-𝐈𝐟 𝐘𝐨𝐮 𝐇𝐚𝐯𝐞 𝐀𝐧𝐲 𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬 𝐀𝐧𝐝 𝐇𝐞𝐥𝐩 𝐓𝐡𝐞𝐧 𝐃𝐦 𝐌𝐲 𝐁𝐨𝐬𝐬 = [ᴀᴍᴀɴ  ❤️](https://t.me/itzamanrajput)**""",
+ƖƑ ƳƠƲ ӇƛƔЄ ƛƝƳ ƢƲЄƦƳ ƇƠƝƬƛƇƬ ƬƠ ƠƜƝЄƦ = [ᴀᴍᴀɴ  ❤️](https://t.me/itzamanrajput)**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
