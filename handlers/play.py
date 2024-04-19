@@ -135,7 +135,7 @@ async def play(_, message: Message):
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>ʜᴇʏ {user.first_name}, ᴛsɢ ᴍᴜsɪᴄ 🎵 ᴀssɪsᴛᴀɴᴛ ɪs ɴᴏᴛ ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ  ᴀsᴋ ᴀᴅᴍɪɴ 💥 ᴛᴏ sᴇɴᴅ /ᴘʟᴀʏ ᴄᴏᴍᴍᴀɴᴅ 🥀 ғᴏʀ ᴛʜᴇ ғɪʀsᴛ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ɪᴛ :- 🥀 [ʜᴀɴɴᴀʜ 💗](https://t.me/Hannah_hatechan) 🥀 </i>")
+            f"<i>ʜᴇʏ {user.first_name}, ᴋʀɪsʜᴜ ᴍᴜsɪᴄ 🎵 ᴀssɪsᴛᴀɴᴛ ɪs ɴᴏᴛ ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ  ᴀsᴋ ᴀᴅᴍɪɴ 🌚 ᴛᴏ sᴇɴᴅ /ᴘʟᴀʏ ᴄᴏᴍᴍᴀɴᴅ 🥀 ғᴏʀ ᴛʜᴇ ғɪʀsᴛ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ɪᴛ :- 🥀 [ʜᴀɴɴᴀʜ 💗](https://t.me/Hannah_hatechan) 🥀 </i>")
         return
     
     audio = (
