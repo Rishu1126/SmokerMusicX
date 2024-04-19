@@ -22,7 +22,7 @@ def song(client, message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    m = message.reply("ғɪɴᴅɪɴɢ 💫 ᴛʜᴇ sᴏɴɢ ʏᴏᴜ ʀᴇǫᴜᴇsᴛᴇᴅ🎧 ғʀᴏᴍ ᴛsɢ ❤️ sᴇʀᴠᴇʀ 🌎...")
+    m = message.reply("ғɪɴᴅɪɴɢ 💫 ᴛʜᴇ sᴏɴɢ ʏᴏᴜ ʀᴇǫᴜᴇsᴛᴇᴅ🎧 ғʀᴏᴍ ᴋʀɪsʜᴜ ᴍᴜsɪᴄ ❤️ sᴇʀᴠᴇʀ 🌎...")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -45,13 +45,13 @@ def song(client, message):
         )
         print(str(e))
         return
-    m.edit("ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ✨ sᴏɴɢ 🎸 ғʀᴏᴍ ᴛsɢ 🥀 sᴇʀᴠᴇʀ 🌎...")
+    m.edit("ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ✨ sᴏɴɢ 🎸 ғʀᴏᴍ ᴋʀɪsʜᴜ ᴍᴜsɪᴄ 🥀 sᴇʀᴠᴇʀ 🌎...")
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = "**🎵 ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ :- ✨ [ᴀᴍᴀɴ 💝](https://t.me/itzamanrajput) ❤️**"
+        rep = "**🎵 ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ :- ✨ [ʜᴀɴɴᴀʜ 💝](https://t.me/Hannah_hatechan) ❤️**"
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
@@ -59,7 +59,7 @@ def song(client, message):
         message.reply_audio(audio_file, caption=rep, thumb=thumb_name, parse_mode='md', title=title, duration=dur)
         m.delete()
     except Exception as e:
-        m.edit("**ʏᴏᴜᴛᴜʙᴇ ᴇʀʀᴏʀ ❌ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ 🥀 [ᴀᴍᴀɴ 💝](https://t.me/itzamanrajput) ❤️**")
+        m.edit("**ʏᴏᴜᴛᴜʙᴇ ᴇʀʀᴏʀ ❌ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ 🥀 [ʜᴀɴɴᴀʜ 💝](https://t.me/Hannah_hatechan) ❤️**")
         print(e)
 
     try:
